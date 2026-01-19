@@ -1,0 +1,22 @@
+# IDE
+.vscode/
+.idea/
+
+# PHPUnit caches
+.phpunit.result.cache
+.phpunit.cache/
+
+# Coverage output
+coverage/
+html/
+clover.xml
+*.clover
+junit.xml
+
+# Composer / vendor
+vendor/
+
+# Temp
+*.zip~
+*.tmp
+*.bak
