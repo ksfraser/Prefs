@@ -20,5 +20,11 @@
     <include>
       <directory suffix=".php">src</directory>
     </include>
+    <exclude>
+      <file>src/Stores/FrontAccountingDbTableStore.php</file>
+      <file>src/Stores/FrontAccountingSysPrefsStore.php</file>
+      <file>src/Stores/SuiteCrmAdministrationStore.php</file>
+      <file>src/Stores/WordPressOptionsStore.php</file>
+    </exclude>
   </coverage>
 </phpunit>
